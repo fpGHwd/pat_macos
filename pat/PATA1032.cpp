@@ -45,4 +45,4 @@ int PATA1032(void){
     // output the postion, also the point, so just find the point // if no, output -1 instead
     
     return 0;
-}
+}// already AC

@@ -30,13 +30,13 @@ static int root_flag_hashTable[MAX] = {0};
 //}
 
 // ok
-static void post_travel(int root){
-    if(root == -1)
-        return;
-    post_travel(static_binarytree[root].lchild);
-    post_travel(static_binarytree[root].rchild);
-    printf("%d",static_binarytree[root].value);
-}
+//static void post_travel(int root){
+//    if(root == -1)
+//        return;
+//    post_travel(static_binarytree[root].lchild);
+//    post_travel(static_binarytree[root].rchild);
+//    printf("%d",static_binarytree[root].value);
+//}
 
 static void post_travel_reverse(int root){
     if(root == -1)
@@ -121,4 +121,4 @@ int PATA1102(){
     in_travel(root);
     
     return 0;
-}
+} // AC

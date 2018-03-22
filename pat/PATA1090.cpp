@@ -32,21 +32,21 @@ static void supply_chain(int root, double price){
 }
 
 // sfbj DFS
-int n, maxDepth = 0, num = 0;
-static void DFS(int index, int depth){
-    if(chain_node[index].children.size() == 0){
-        if(depth > maxDepth){
-            maxDepth = depth;
-            num = 1;
-        }else{
-            num++;
-        }
-        return;
-    }
-    for(vector<int>::iterator it = chain_node[index].children.begin(); it != chain_node[index].children.end(); it++){
-        DFS(*it, depth+1);
-    }
-}
+//int n, maxDepth = 0, num = 0;
+//static void DFS(int index, int depth){
+//    if(chain_node[index].children.size() == 0){
+//        if(depth > maxDepth){
+//            maxDepth = depth;
+//            num = 1;
+//        }else{
+//            num++;
+//        }
+//        return;
+//    }
+//    for(vector<int>::iterator it = chain_node[index].children.begin(); it != chain_node[index].children.end(); it++){
+//        DFS(*it, depth+1);
+//    }
+//}
 
 int PATA1090(void){
     freopen("input.txt", "r", stdin);

@@ -15,14 +15,12 @@
 
 using namespace std;
 
-#define MAX_NUM 100000
-
-static const int max_num = 100000; // max address for this static linklist is 999999
-static struct Node{
-    int data, next, order = max_num, address;
+static const int max_num = 100010;
+static struct Node_PATA1074{ // Node -> Node_PATA1074 comment is not accurate
+    int data, next, order, address;
 }list[max_num];
 
-static bool cmp(struct Node a, struct Node b){
+static bool cmp(struct Node_PATA1074 a, struct Node_PATA1074 b){
     return a.order < b.order;
 }
 
@@ -30,6 +28,10 @@ int PATA1074(void){ // cultivate abstract ability and use write and paint to str
     freopen("input.txt", "r", stdin);
     int head, num, k;
     scanf("%d%d%d", &head, &num, &k);
+    
+    for(int i = 0; i< max_num; i++){
+        list[i].order = max_num; // need here
+    }
     
     int address;
     for(int i = 0; i< num; i++){
@@ -40,8 +42,7 @@ int PATA1074(void){ // cultivate abstract ability and use write and paint to str
     
     int valid = 0, work = head; // named "next" is not a good habit
     while(work != -1){
-        list[work].order = valid;
-        valid++;
+        list[work].order = valid++;
         work = list[work].next;
     }// valid nodes equals to valid // please do not confuse yourself
     
@@ -58,13 +59,13 @@ int PATA1074(void){ // cultivate abstract ability and use write and paint to str
                     printf("%05d\n", list[j-1].address);
                 }
             }else{ // this j is in the last block
-                if(valid / k == 0){ // this j is in the last block and has no unreverse elements
+                if(valid % k == 0){ // this j is in the last block and has no unreverse elements // valid / k == 0 -> valid % k == 0
                     if(j != i*k){
                         printf("%05d\n", list[j-1].address);
                     }else{
                         printf("-1");
                     }
-                }else{ // this j is in the last block and has unreverse elements
+                }else{ // this j is in the last block and has elements to be reversed
                     if(j != i*k){
                         printf("%05d\n", list[j-1].address);
                     }else{
@@ -100,4 +101,4 @@ int PATA1074(void){ // cultivate abstract ability and use write and paint to str
     }
     
     return 0;
-}
+}// not AC // AC @ 20180311 1531

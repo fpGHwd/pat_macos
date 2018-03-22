@@ -56,4 +56,4 @@ int PATA1079(void){
     printf("%.1f", amount); // %.1f
     
     return 0;
-}
+} // change TYPE and AC, 玄学AC

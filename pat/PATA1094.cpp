@@ -57,6 +57,6 @@ int PATA1094(){
     return 0;
 } // 20180228 1014
 
-// continuous trasformation and abstracting benefits, while human is abstraction and abstraction is human.
+// continuous transformation and abstracting benefits, while human is abstraction and abstraction is human.
 
 // AC
