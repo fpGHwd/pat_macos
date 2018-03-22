@@ -7,7 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC09ECF4204952E100C7272E /* PATA1003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ECF3204952E100C7272E /* PATA1003.cpp */; };
+		FC09ECF62049530700C7272E /* PATA1018.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ECF52049530700C7272E /* PATA1018.cpp */; };
+		FC09ECF82049531800C7272E /* PATA1030.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ECF72049531800C7272E /* PATA1030.cpp */; };
+		FC09ECFA2049532900C7272E /* PATA1072.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ECF92049532900C7272E /* PATA1072.cpp */; };
+		FC09ECFC2049533700C7272E /* PATA1087.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ECFB2049533700C7272E /* PATA1087.cpp */; };
+		FC09ECFE2049539200C7272E /* dijkstra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ECFD2049539200C7272E /* dijkstra.cpp */; };
+		FC09ED00204BC49400C7272E /* PATA1003-DIJKSTRA-DFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ECFF204BC49400C7272E /* PATA1003-DIJKSTRA-DFS.cpp */; };
+		FC09ED02204BC58900C7272E /* floyd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED01204BC58900C7272E /* floyd.cpp */; };
+		FC09ED04204BEA6200C7272E /* minimun-spanning-tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED03204BEA6200C7272E /* minimun-spanning-tree.cpp */; };
+		FC09ED06204D123300C7272E /* topological-sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED05204D123300C7272E /* topological-sort.cpp */; };
+		FC09ED08204D137E00C7272E /* activity-on-vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED07204D137E00C7272E /* activity-on-vertex.cpp */; };
+		FC09ED0A204D5FFE00C7272E /* sorta.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED09204D5FFE00C7272E /* sorta.cpp */; };
+		FC09ED0C204E28E900C7272E /* 2014q3-perfect-number.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED0B204E28E900C7272E /* 2014q3-perfect-number.cpp */; };
+		FC09ED0E204E2E5500C7272E /* 2014q1-function-calculate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED0D204E2E5500C7272E /* 2014q1-function-calculate.cpp */; };
+		FC09ED10204E312900C7272E /* 2014q2-ascii.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED0F204E312900C7272E /* 2014q2-ascii.cpp */; };
+		FC09ED12204E33B200C7272E /* 2014q4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED11204E33B200C7272E /* 2014q4.cpp */; };
+		FC09ED14204E373D00C7272E /* 2014q6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED13204E373D00C7272E /* 2014q6.cpp */; };
+		FC09ED16204E41A700C7272E /* 2014q5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED15204E41A700C7272E /* 2014q5.cpp */; };
+		FC09ED18204E4ACA00C7272E /* 2015q1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED17204E4ACA00C7272E /* 2015q1.cpp */; };
+		FC09ED1A204E4BBA00C7272E /* 2015q2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED19204E4BBA00C7272E /* 2015q2.cpp */; };
+		FC09ED1C204E4E4100C7272E /* 2015q3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC09ED1B204E4E4100C7272E /* 2015q3.cpp */; };
+		FC20F2F82054CC7500C276DC /* 2018-hust-q3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC20F2F72054CC7500C276DC /* 2018-hust-q3.cpp */; };
+		FC32D8542046769B00BE9CB6 /* PATA1043.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D8532046769B00BE9CB6 /* PATA1043.cpp */; };
+		FC32D856204676AF00BE9CB6 /* PATA1064.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D855204676AF00BE9CB6 /* PATA1064.cpp */; };
+		FC32D858204676C400BE9CB6 /* PATA1099.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D857204676C400BE9CB6 /* PATA1099.cpp */; };
+		FC32D85A204676E500BE9CB6 /* PATA1066.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D859204676E500BE9CB6 /* PATA1066.cpp */; };
+		FC32D85C2046864700BE9CB6 /* PATA1107.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D85B2046864700BE9CB6 /* PATA1107.cpp */; };
+		FC32D85E2046865700BE9CB6 /* PATA1098.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D85D2046865700BE9CB6 /* PATA1098.cpp */; };
+		FC32D8602046D0A800BE9CB6 /* AVL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D85F2046D0A800BE9CB6 /* AVL.cpp */; };
+		FC32D8622046EFEE00BE9CB6 /* disjoint-set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D8612046EFEE00BE9CB6 /* disjoint-set.cpp */; };
+		FC32D86420478B0900BE9CB6 /* dear-friend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D86320478B0900BE9CB6 /* dear-friend.cpp */; };
+		FC32D86620479A0A00BE9CB6 /* heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D86520479A0A00BE9CB6 /* heap.cpp */; };
+		FC32D868204831E900BE9CB6 /* PATA1013.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D867204831E900BE9CB6 /* PATA1013.cpp */; };
+		FC32D86A2048320000BE9CB6 /* PATA1021.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D8692048320000BE9CB6 /* PATA1021.cpp */; };
+		FC32D86C2048320C00BE9CB6 /* PATA1034.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D86B2048320C00BE9CB6 /* PATA1034.cpp */; };
+		FC32D86E2048321B00BE9CB6 /* PATA1076.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D86D2048321B00BE9CB6 /* PATA1076.cpp */; };
+		FC32D87020483FA300BE9CB6 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC32D86F20483FA300BE9CB6 /* graph.cpp */; };
+		FC357C10205E9A000024DD90 /* count-change.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC357C0F205E9A000024DD90 /* count-change.cpp */; };
+		FC357C12206274180024DD90 /* whu0321_t05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC357C11206274180024DD90 /* whu0321_t05.cpp */; };
+		FC441D1E2055457A001CF4CF /* ANOJ1008.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC441D1D2055457A001CF4CF /* ANOJ1008.cpp */; };
+		FC441D2020555766001CF4CF /* ANOJ1005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC441D1F20555766001CF4CF /* ANOJ1005.cpp */; };
+		FC441D2220557F7C001CF4CF /* ANOJ1001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC441D2120557F7C001CF4CF /* ANOJ1001.cpp */; };
+		FC441D2420560F39001CF4CF /* priority-queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC441D2320560F39001CF4CF /* priority-queue.cpp */; };
+		FC441D2620561437001CF4CF /* ANOJ1011.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC441D2520561437001CF4CF /* ANOJ1011.cpp */; };
+		FC5CE3EA204429EA00CA6CC0 /* PATA1056.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3E9204429EA00CA6CC0 /* PATA1056.cpp */; };
+		FC5CE3F0204441CE00CA6CC0 /* PATA1074.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3EF204441CE00CA6CC0 /* PATA1074.cpp */; };
+		FC5CE3F220450FF400CA6CC0 /* PATA1032.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3F120450FF400CA6CC0 /* PATA1032.cpp */; };
+		FC5CE3F4204516CB00CA6CC0 /* PATA1052.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3F3204516CB00CA6CC0 /* PATA1052.cpp */; };
+		FC5CE3F62045380A00CA6CC0 /* PATA1097.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3F52045380A00CA6CC0 /* PATA1097.cpp */; };
+		FC5CE3F8204540C000CA6CC0 /* PATA1103.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3F7204540C000CA6CC0 /* PATA1103.cpp */; };
+		FC5CE3FA2045488E00CA6CC0 /* PATA1091.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3F92045488E00CA6CC0 /* PATA1091.cpp */; };
+		FC5CE3FC2045493800CA6CC0 /* PATA1020.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3FB2045493800CA6CC0 /* PATA1020.cpp */; };
+		FC5CE3FE204553BE00CA6CC0 /* PATA1086.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3FD204553BE00CA6CC0 /* PATA1086.cpp */; };
+		FC5CE400204554B900CA6CC0 /* PATA1102.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE3FF204554B900CA6CC0 /* PATA1102.cpp */; };
+		FC5CE4022045858400CA6CC0 /* PATA1079.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE4012045858400CA6CC0 /* PATA1079.cpp */; };
+		FC5CE40420462B0600CA6CC0 /* PATA1090.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE40320462B0600CA6CC0 /* PATA1090.cpp */; };
+		FC5CE406204632DD00CA6CC0 /* PATA1094.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE405204632DD00CA6CC0 /* PATA1094.cpp */; };
+		FC5CE4082046482C00CA6CC0 /* PATA1106.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE4072046482C00CA6CC0 /* PATA1106.cpp */; };
+		FC5CE40A2046483900CA6CC0 /* PATA1004.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE4092046483900CA6CC0 /* PATA1004.cpp */; };
+		FC5CE40C2046484A00CA6CC0 /* PATA1053.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5CE40B2046484A00CA6CC0 /* PATA1053.cpp */; };
+		FC985F5C204E7E1E00464076 /* 2015q4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F5B204E7E1E00464076 /* 2015q4.cpp */; };
+		FC985F5E204E7F2000464076 /* 2015q5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F5D204E7F2000464076 /* 2015q5.cpp */; };
+		FC985F60204F784400464076 /* 2017q1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F5F204F784400464076 /* 2017q1.cpp */; };
+		FC985F62204F7A9900464076 /* 2017q2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F61204F7A9900464076 /* 2017q2.cpp */; };
+		FC985F64204F7F1700464076 /* 2017q3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F63204F7F1700464076 /* 2017q3.cpp */; };
+		FC985F66204F85CA00464076 /* 2017q4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F65204F85CA00464076 /* 2017q4.cpp */; };
+		FC985F68204F88F000464076 /* 2017q5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F67204F88F000464076 /* 2017q5.cpp */; };
+		FC985F6A205022B200464076 /* pass_ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F69205022B200464076 /* pass_ball.cpp */; };
+		FC985F6C205128B200464076 /* template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC985F6B205128B200464076 /* template.cpp */; };
 		FCBDEC0F203D811B00A95D98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCBDEC0E203D811B00A95D98 /* main.cpp */; };
+		FCF42769205698ED00ABFD5C /* ANOJ_IM_01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42768205698ED00ABFD5C /* ANOJ_IM_01.cpp */; };
+		FCF4276B2056A05600ABFD5C /* ANOJ_IM_02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4276A2056A05600ABFD5C /* ANOJ_IM_02.cpp */; };
+		FCF4276D2056A36D00ABFD5C /* ANOJ_IM_03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4276C2056A36D00ABFD5C /* ANOJ_IM_03.cpp */; };
+		FCF4276F205950AD00ABFD5C /* DP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4276E205950AD00ABFD5C /* DP.cpp */; };
+		FCF42771205955D800ABFD5C /* count_tower.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42770205955D800ABFD5C /* count_tower.cpp */; };
+		FCF4277320595E9300ABFD5C /* greatest-sum-sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4277220595E9300ABFD5C /* greatest-sum-sequence.cpp */; };
+		FCF4277520596FF400ABFD5C /* longest-increasing-sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4277420596FF400ABFD5C /* longest-increasing-sequence.cpp */; };
+		FCF42777205987B200ABFD5C /* longest-common-subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42776205987B200ABFD5C /* longest-common-subsequence.cpp */; };
+		FCF42779205A00D900ABFD5C /* longest-palindromic-substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42778205A00D900ABFD5C /* longest-palindromic-substring.cpp */; };
+		FCF4277B205A29BF00ABFD5C /* BRT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4277A205A29BF00ABFD5C /* BRT.cpp */; };
+		FCF4277E205A694D00ABFD5C /* red-black-tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4277C205A694D00ABFD5C /* red-black-tree.cpp */; };
+		FCF42780205A8A1800ABFD5C /* 20180315anoj01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF4277F205A8A1800ABFD5C /* 20180315anoj01.cpp */; };
+		FCF42782205A925400ABFD5C /* 20180315anoj02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42781205A925400ABFD5C /* 20180315anoj02.cpp */; };
+		FCF42784205AACEE00ABFD5C /* 20180315anoj03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42783205AACEE00ABFD5C /* 20180315anoj03.cpp */; };
+		FCF42786205B7CF600ABFD5C /* PATB1036.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42785205B7CF600ABFD5C /* PATB1036.cpp */; };
+		FCF42788205B807600ABFD5C /* PATB1032.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42787205B807600ABFD5C /* PATB1032.cpp */; };
+		FCF4278A205B883100ABFD5C /* PATA1010.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCF42789205B883100ABFD5C /* PATA1010.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +109,96 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC09ECF3204952E100C7272E /* PATA1003.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1003.cpp; sourceTree = "<group>"; };
+		FC09ECF52049530700C7272E /* PATA1018.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1018.cpp; sourceTree = "<group>"; };
+		FC09ECF72049531800C7272E /* PATA1030.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1030.cpp; sourceTree = "<group>"; };
+		FC09ECF92049532900C7272E /* PATA1072.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1072.cpp; sourceTree = "<group>"; };
+		FC09ECFB2049533700C7272E /* PATA1087.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1087.cpp; sourceTree = "<group>"; };
+		FC09ECFD2049539200C7272E /* dijkstra.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dijkstra.cpp; sourceTree = "<group>"; };
+		FC09ECFF204BC49400C7272E /* PATA1003-DIJKSTRA-DFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "PATA1003-DIJKSTRA-DFS.cpp"; sourceTree = "<group>"; };
+		FC09ED01204BC58900C7272E /* floyd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = floyd.cpp; sourceTree = "<group>"; };
+		FC09ED03204BEA6200C7272E /* minimun-spanning-tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "minimun-spanning-tree.cpp"; sourceTree = "<group>"; };
+		FC09ED05204D123300C7272E /* topological-sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "topological-sort.cpp"; sourceTree = "<group>"; };
+		FC09ED07204D137E00C7272E /* activity-on-vertex.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "activity-on-vertex.cpp"; sourceTree = "<group>"; };
+		FC09ED09204D5FFE00C7272E /* sorta.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sorta.cpp; sourceTree = "<group>"; };
+		FC09ED0B204E28E900C7272E /* 2014q3-perfect-number.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2014q3-perfect-number.cpp"; sourceTree = "<group>"; };
+		FC09ED0D204E2E5500C7272E /* 2014q1-function-calculate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2014q1-function-calculate.cpp"; sourceTree = "<group>"; };
+		FC09ED0F204E312900C7272E /* 2014q2-ascii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2014q2-ascii.cpp"; sourceTree = "<group>"; };
+		FC09ED11204E33B200C7272E /* 2014q4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2014q4.cpp; sourceTree = "<group>"; };
+		FC09ED13204E373D00C7272E /* 2014q6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2014q6.cpp; sourceTree = "<group>"; };
+		FC09ED15204E41A700C7272E /* 2014q5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2014q5.cpp; sourceTree = "<group>"; };
+		FC09ED17204E4ACA00C7272E /* 2015q1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015q1.cpp; sourceTree = "<group>"; };
+		FC09ED19204E4BBA00C7272E /* 2015q2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015q2.cpp; sourceTree = "<group>"; };
+		FC09ED1B204E4E4100C7272E /* 2015q3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015q3.cpp; sourceTree = "<group>"; };
+		FC20F2F72054CC7500C276DC /* 2018-hust-q3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "2018-hust-q3.cpp"; sourceTree = "<group>"; };
+		FC32D8532046769B00BE9CB6 /* PATA1043.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1043.cpp; sourceTree = "<group>"; };
+		FC32D855204676AF00BE9CB6 /* PATA1064.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1064.cpp; sourceTree = "<group>"; };
+		FC32D857204676C400BE9CB6 /* PATA1099.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1099.cpp; sourceTree = "<group>"; };
+		FC32D859204676E500BE9CB6 /* PATA1066.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1066.cpp; sourceTree = "<group>"; };
+		FC32D85B2046864700BE9CB6 /* PATA1107.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1107.cpp; sourceTree = "<group>"; };
+		FC32D85D2046865700BE9CB6 /* PATA1098.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1098.cpp; sourceTree = "<group>"; };
+		FC32D85F2046D0A800BE9CB6 /* AVL.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVL.cpp; sourceTree = "<group>"; };
+		FC32D8612046EFEE00BE9CB6 /* disjoint-set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "disjoint-set.cpp"; sourceTree = "<group>"; };
+		FC32D86320478B0900BE9CB6 /* dear-friend.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "dear-friend.cpp"; sourceTree = "<group>"; };
+		FC32D86520479A0A00BE9CB6 /* heap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = heap.cpp; sourceTree = "<group>"; };
+		FC32D867204831E900BE9CB6 /* PATA1013.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1013.cpp; sourceTree = "<group>"; };
+		FC32D8692048320000BE9CB6 /* PATA1021.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1021.cpp; sourceTree = "<group>"; };
+		FC32D86B2048320C00BE9CB6 /* PATA1034.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1034.cpp; sourceTree = "<group>"; };
+		FC32D86D2048321B00BE9CB6 /* PATA1076.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1076.cpp; sourceTree = "<group>"; };
+		FC32D86F20483FA300BE9CB6 /* graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = graph.cpp; sourceTree = "<group>"; };
+		FC357C0F205E9A000024DD90 /* count-change.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "count-change.cpp"; sourceTree = "<group>"; };
+		FC357C11206274180024DD90 /* whu0321_t05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = whu0321_t05.cpp; sourceTree = "<group>"; };
+		FC441D1D2055457A001CF4CF /* ANOJ1008.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ANOJ1008.cpp; sourceTree = "<group>"; };
+		FC441D1F20555766001CF4CF /* ANOJ1005.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ANOJ1005.cpp; sourceTree = "<group>"; };
+		FC441D2120557F7C001CF4CF /* ANOJ1001.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ANOJ1001.cpp; sourceTree = "<group>"; };
+		FC441D2320560F39001CF4CF /* priority-queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "priority-queue.cpp"; sourceTree = "<group>"; };
+		FC441D2520561437001CF4CF /* ANOJ1011.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ANOJ1011.cpp; sourceTree = "<group>"; };
+		FC5CE3E9204429EA00CA6CC0 /* PATA1056.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1056.cpp; sourceTree = "<group>"; };
+		FC5CE3EE20442B3C00CA6CC0 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		FC5CE3EF204441CE00CA6CC0 /* PATA1074.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1074.cpp; sourceTree = "<group>"; };
+		FC5CE3F120450FF400CA6CC0 /* PATA1032.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1032.cpp; sourceTree = "<group>"; };
+		FC5CE3F3204516CB00CA6CC0 /* PATA1052.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1052.cpp; sourceTree = "<group>"; };
+		FC5CE3F52045380A00CA6CC0 /* PATA1097.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1097.cpp; sourceTree = "<group>"; };
+		FC5CE3F7204540C000CA6CC0 /* PATA1103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1103.cpp; sourceTree = "<group>"; };
+		FC5CE3F92045488E00CA6CC0 /* PATA1091.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1091.cpp; sourceTree = "<group>"; };
+		FC5CE3FB2045493800CA6CC0 /* PATA1020.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1020.cpp; sourceTree = "<group>"; };
+		FC5CE3FD204553BE00CA6CC0 /* PATA1086.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1086.cpp; sourceTree = "<group>"; };
+		FC5CE3FF204554B900CA6CC0 /* PATA1102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1102.cpp; sourceTree = "<group>"; };
+		FC5CE4012045858400CA6CC0 /* PATA1079.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1079.cpp; sourceTree = "<group>"; };
+		FC5CE40320462B0600CA6CC0 /* PATA1090.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1090.cpp; sourceTree = "<group>"; };
+		FC5CE405204632DD00CA6CC0 /* PATA1094.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1094.cpp; sourceTree = "<group>"; };
+		FC5CE4072046482C00CA6CC0 /* PATA1106.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1106.cpp; sourceTree = "<group>"; };
+		FC5CE4092046483900CA6CC0 /* PATA1004.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1004.cpp; sourceTree = "<group>"; };
+		FC5CE40B2046484A00CA6CC0 /* PATA1053.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1053.cpp; sourceTree = "<group>"; };
+		FC985F5B204E7E1E00464076 /* 2015q4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015q4.cpp; sourceTree = "<group>"; };
+		FC985F5D204E7F2000464076 /* 2015q5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2015q5.cpp; sourceTree = "<group>"; };
+		FC985F5F204F784400464076 /* 2017q1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2017q1.cpp; sourceTree = "<group>"; };
+		FC985F61204F7A9900464076 /* 2017q2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2017q2.cpp; sourceTree = "<group>"; };
+		FC985F63204F7F1700464076 /* 2017q3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2017q3.cpp; sourceTree = "<group>"; };
+		FC985F65204F85CA00464076 /* 2017q4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2017q4.cpp; sourceTree = "<group>"; };
+		FC985F67204F88F000464076 /* 2017q5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2017q5.cpp; sourceTree = "<group>"; };
+		FC985F69205022B200464076 /* pass_ball.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pass_ball.cpp; sourceTree = "<group>"; };
+		FC985F6B205128B200464076 /* template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cpp; sourceTree = "<group>"; };
 		FCBDEC0B203D811B00A95D98 /* pat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pat; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBDEC0E203D811B00A95D98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FCF42768205698ED00ABFD5C /* ANOJ_IM_01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ANOJ_IM_01.cpp; sourceTree = "<group>"; };
+		FCF4276A2056A05600ABFD5C /* ANOJ_IM_02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ANOJ_IM_02.cpp; sourceTree = "<group>"; };
+		FCF4276C2056A36D00ABFD5C /* ANOJ_IM_03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ANOJ_IM_03.cpp; sourceTree = "<group>"; };
+		FCF4276E205950AD00ABFD5C /* DP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP.cpp; sourceTree = "<group>"; };
+		FCF42770205955D800ABFD5C /* count_tower.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = count_tower.cpp; sourceTree = "<group>"; };
+		FCF4277220595E9300ABFD5C /* greatest-sum-sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "greatest-sum-sequence.cpp"; sourceTree = "<group>"; };
+		FCF4277420596FF400ABFD5C /* longest-increasing-sequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "longest-increasing-sequence.cpp"; sourceTree = "<group>"; };
+		FCF42776205987B200ABFD5C /* longest-common-subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "longest-common-subsequence.cpp"; sourceTree = "<group>"; };
+		FCF42778205A00D900ABFD5C /* longest-palindromic-substring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "longest-palindromic-substring.cpp"; sourceTree = "<group>"; };
+		FCF4277A205A29BF00ABFD5C /* BRT.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BRT.cpp; sourceTree = "<group>"; };
+		FCF4277C205A694D00ABFD5C /* red-black-tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "red-black-tree.cpp"; sourceTree = "<group>"; };
+		FCF4277D205A694D00ABFD5C /* red-black-tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "red-black-tree.hpp"; sourceTree = "<group>"; };
+		FCF4277F205A8A1800ABFD5C /* 20180315anoj01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20180315anoj01.cpp; sourceTree = "<group>"; };
+		FCF42781205A925400ABFD5C /* 20180315anoj02.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20180315anoj02.cpp; sourceTree = "<group>"; };
+		FCF42783205AACEE00ABFD5C /* 20180315anoj03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 20180315anoj03.cpp; sourceTree = "<group>"; };
+		FCF42785205B7CF600ABFD5C /* PATB1036.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATB1036.cpp; sourceTree = "<group>"; };
+		FCF42787205B807600ABFD5C /* PATB1032.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATB1032.cpp; sourceTree = "<group>"; };
+		FCF42789205B883100ABFD5C /* PATA1010.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PATA1010.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +231,95 @@
 		FCBDEC0D203D811B00A95D98 /* pat */ = {
 			isa = PBXGroup;
 			children = (
+				FC5CE3EE20442B3C00CA6CC0 /* input.txt */,
 				FCBDEC0E203D811B00A95D98 /* main.cpp */,
+				FC5CE3E9204429EA00CA6CC0 /* PATA1056.cpp */,
+				FC5CE3EF204441CE00CA6CC0 /* PATA1074.cpp */,
+				FC5CE3F120450FF400CA6CC0 /* PATA1032.cpp */,
+				FC5CE3F3204516CB00CA6CC0 /* PATA1052.cpp */,
+				FC5CE3F52045380A00CA6CC0 /* PATA1097.cpp */,
+				FC5CE3F7204540C000CA6CC0 /* PATA1103.cpp */,
+				FC5CE3F92045488E00CA6CC0 /* PATA1091.cpp */,
+				FC5CE3FB2045493800CA6CC0 /* PATA1020.cpp */,
+				FC5CE3FD204553BE00CA6CC0 /* PATA1086.cpp */,
+				FC5CE3FF204554B900CA6CC0 /* PATA1102.cpp */,
+				FC5CE4012045858400CA6CC0 /* PATA1079.cpp */,
+				FC5CE40320462B0600CA6CC0 /* PATA1090.cpp */,
+				FC5CE405204632DD00CA6CC0 /* PATA1094.cpp */,
+				FC5CE4072046482C00CA6CC0 /* PATA1106.cpp */,
+				FC5CE4092046483900CA6CC0 /* PATA1004.cpp */,
+				FC5CE40B2046484A00CA6CC0 /* PATA1053.cpp */,
+				FC32D8532046769B00BE9CB6 /* PATA1043.cpp */,
+				FC32D855204676AF00BE9CB6 /* PATA1064.cpp */,
+				FC32D857204676C400BE9CB6 /* PATA1099.cpp */,
+				FC32D859204676E500BE9CB6 /* PATA1066.cpp */,
+				FC32D85B2046864700BE9CB6 /* PATA1107.cpp */,
+				FC32D85D2046865700BE9CB6 /* PATA1098.cpp */,
+				FC32D85F2046D0A800BE9CB6 /* AVL.cpp */,
+				FC32D8612046EFEE00BE9CB6 /* disjoint-set.cpp */,
+				FC32D86320478B0900BE9CB6 /* dear-friend.cpp */,
+				FC32D86520479A0A00BE9CB6 /* heap.cpp */,
+				FC32D867204831E900BE9CB6 /* PATA1013.cpp */,
+				FC32D8692048320000BE9CB6 /* PATA1021.cpp */,
+				FC32D86B2048320C00BE9CB6 /* PATA1034.cpp */,
+				FC32D86D2048321B00BE9CB6 /* PATA1076.cpp */,
+				FC32D86F20483FA300BE9CB6 /* graph.cpp */,
+				FC09ECF3204952E100C7272E /* PATA1003.cpp */,
+				FC09ECFD2049539200C7272E /* dijkstra.cpp */,
+				FC09ECFF204BC49400C7272E /* PATA1003-DIJKSTRA-DFS.cpp */,
+				FC09ECF52049530700C7272E /* PATA1018.cpp */,
+				FC09ED01204BC58900C7272E /* floyd.cpp */,
+				FC09ED03204BEA6200C7272E /* minimun-spanning-tree.cpp */,
+				FC09ECF72049531800C7272E /* PATA1030.cpp */,
+				FC09ECF92049532900C7272E /* PATA1072.cpp */,
+				FC09ECFB2049533700C7272E /* PATA1087.cpp */,
+				FC09ED05204D123300C7272E /* topological-sort.cpp */,
+				FC09ED07204D137E00C7272E /* activity-on-vertex.cpp */,
+				FC09ED09204D5FFE00C7272E /* sorta.cpp */,
+				FC09ED0B204E28E900C7272E /* 2014q3-perfect-number.cpp */,
+				FC09ED0D204E2E5500C7272E /* 2014q1-function-calculate.cpp */,
+				FC09ED0F204E312900C7272E /* 2014q2-ascii.cpp */,
+				FC09ED11204E33B200C7272E /* 2014q4.cpp */,
+				FC09ED13204E373D00C7272E /* 2014q6.cpp */,
+				FC09ED15204E41A700C7272E /* 2014q5.cpp */,
+				FC09ED17204E4ACA00C7272E /* 2015q1.cpp */,
+				FC09ED19204E4BBA00C7272E /* 2015q2.cpp */,
+				FC09ED1B204E4E4100C7272E /* 2015q3.cpp */,
+				FC985F5B204E7E1E00464076 /* 2015q4.cpp */,
+				FC985F5D204E7F2000464076 /* 2015q5.cpp */,
+				FC985F5F204F784400464076 /* 2017q1.cpp */,
+				FC985F61204F7A9900464076 /* 2017q2.cpp */,
+				FC985F63204F7F1700464076 /* 2017q3.cpp */,
+				FC985F65204F85CA00464076 /* 2017q4.cpp */,
+				FC985F67204F88F000464076 /* 2017q5.cpp */,
+				FC985F69205022B200464076 /* pass_ball.cpp */,
+				FC985F6B205128B200464076 /* template.cpp */,
+				FC20F2F72054CC7500C276DC /* 2018-hust-q3.cpp */,
+				FC441D1D2055457A001CF4CF /* ANOJ1008.cpp */,
+				FC441D1F20555766001CF4CF /* ANOJ1005.cpp */,
+				FC441D2120557F7C001CF4CF /* ANOJ1001.cpp */,
+				FC441D2320560F39001CF4CF /* priority-queue.cpp */,
+				FC441D2520561437001CF4CF /* ANOJ1011.cpp */,
+				FCF42768205698ED00ABFD5C /* ANOJ_IM_01.cpp */,
+				FCF4276A2056A05600ABFD5C /* ANOJ_IM_02.cpp */,
+				FCF4276C2056A36D00ABFD5C /* ANOJ_IM_03.cpp */,
+				FCF4276E205950AD00ABFD5C /* DP.cpp */,
+				FCF42770205955D800ABFD5C /* count_tower.cpp */,
+				FCF4277220595E9300ABFD5C /* greatest-sum-sequence.cpp */,
+				FCF4277420596FF400ABFD5C /* longest-increasing-sequence.cpp */,
+				FCF42776205987B200ABFD5C /* longest-common-subsequence.cpp */,
+				FCF42778205A00D900ABFD5C /* longest-palindromic-substring.cpp */,
+				FCF4277A205A29BF00ABFD5C /* BRT.cpp */,
+				FCF4277C205A694D00ABFD5C /* red-black-tree.cpp */,
+				FCF4277D205A694D00ABFD5C /* red-black-tree.hpp */,
+				FCF4277F205A8A1800ABFD5C /* 20180315anoj01.cpp */,
+				FCF42781205A925400ABFD5C /* 20180315anoj02.cpp */,
+				FCF42783205AACEE00ABFD5C /* 20180315anoj03.cpp */,
+				FCF42785205B7CF600ABFD5C /* PATB1036.cpp */,
+				FCF42787205B807600ABFD5C /* PATB1032.cpp */,
+				FCF42789205B883100ABFD5C /* PATA1010.cpp */,
+				FC357C0F205E9A000024DD90 /* count-change.cpp */,
+				FC357C11206274180024DD90 /* whu0321_t05.cpp */,
 			);
 			path = pat;
 			sourceTree = "<group>";
@@ -119,7 +381,93 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF42782205A925400ABFD5C /* 20180315anoj02.cpp in Sources */,
+				FC357C10205E9A000024DD90 /* count-change.cpp in Sources */,
+				FC09ECFC2049533700C7272E /* PATA1087.cpp in Sources */,
+				FC09ED14204E373D00C7272E /* 2014q6.cpp in Sources */,
+				FC985F5E204E7F2000464076 /* 2015q5.cpp in Sources */,
+				FCF4276B2056A05600ABFD5C /* ANOJ_IM_02.cpp in Sources */,
+				FC5CE40420462B0600CA6CC0 /* PATA1090.cpp in Sources */,
+				FCF4277320595E9300ABFD5C /* greatest-sum-sequence.cpp in Sources */,
+				FC20F2F82054CC7500C276DC /* 2018-hust-q3.cpp in Sources */,
+				FC5CE4022045858400CA6CC0 /* PATA1079.cpp in Sources */,
+				FC32D86620479A0A00BE9CB6 /* heap.cpp in Sources */,
+				FC09ED10204E312900C7272E /* 2014q2-ascii.cpp in Sources */,
+				FC5CE3FC2045493800CA6CC0 /* PATA1020.cpp in Sources */,
+				FC32D8602046D0A800BE9CB6 /* AVL.cpp in Sources */,
+				FC985F5C204E7E1E00464076 /* 2015q4.cpp in Sources */,
+				FC09ED12204E33B200C7272E /* 2014q4.cpp in Sources */,
+				FC5CE3F62045380A00CA6CC0 /* PATA1097.cpp in Sources */,
+				FCF4278A205B883100ABFD5C /* PATA1010.cpp in Sources */,
+				FC5CE3F0204441CE00CA6CC0 /* PATA1074.cpp in Sources */,
+				FC5CE3F8204540C000CA6CC0 /* PATA1103.cpp in Sources */,
+				FC09ED0E204E2E5500C7272E /* 2014q1-function-calculate.cpp in Sources */,
+				FC441D2620561437001CF4CF /* ANOJ1011.cpp in Sources */,
+				FC32D858204676C400BE9CB6 /* PATA1099.cpp in Sources */,
+				FC441D2420560F39001CF4CF /* priority-queue.cpp in Sources */,
+				FC09ED00204BC49400C7272E /* PATA1003-DIJKSTRA-DFS.cpp in Sources */,
+				FC985F6C205128B200464076 /* template.cpp in Sources */,
+				FC09ED04204BEA6200C7272E /* minimun-spanning-tree.cpp in Sources */,
+				FC09ECFA2049532900C7272E /* PATA1072.cpp in Sources */,
+				FC09ED0C204E28E900C7272E /* 2014q3-perfect-number.cpp in Sources */,
+				FCF42771205955D800ABFD5C /* count_tower.cpp in Sources */,
+				FC985F6A205022B200464076 /* pass_ball.cpp in Sources */,
+				FC5CE4082046482C00CA6CC0 /* PATA1106.cpp in Sources */,
+				FC5CE400204554B900CA6CC0 /* PATA1102.cpp in Sources */,
+				FCF4277B205A29BF00ABFD5C /* BRT.cpp in Sources */,
+				FC5CE40A2046483900CA6CC0 /* PATA1004.cpp in Sources */,
+				FC32D87020483FA300BE9CB6 /* graph.cpp in Sources */,
+				FC09ED16204E41A700C7272E /* 2014q5.cpp in Sources */,
+				FC32D868204831E900BE9CB6 /* PATA1013.cpp in Sources */,
+				FC441D2220557F7C001CF4CF /* ANOJ1001.cpp in Sources */,
+				FC32D8542046769B00BE9CB6 /* PATA1043.cpp in Sources */,
+				FCF42788205B807600ABFD5C /* PATB1032.cpp in Sources */,
+				FC985F68204F88F000464076 /* 2017q5.cpp in Sources */,
+				FC32D86A2048320000BE9CB6 /* PATA1021.cpp in Sources */,
+				FC441D1E2055457A001CF4CF /* ANOJ1008.cpp in Sources */,
+				FC32D85E2046865700BE9CB6 /* PATA1098.cpp in Sources */,
+				FC09ED08204D137E00C7272E /* activity-on-vertex.cpp in Sources */,
+				FC5CE3F4204516CB00CA6CC0 /* PATA1052.cpp in Sources */,
+				FCF4277520596FF400ABFD5C /* longest-increasing-sequence.cpp in Sources */,
+				FC32D85C2046864700BE9CB6 /* PATA1107.cpp in Sources */,
+				FC32D85A204676E500BE9CB6 /* PATA1066.cpp in Sources */,
+				FC5CE3F220450FF400CA6CC0 /* PATA1032.cpp in Sources */,
+				FC09ED02204BC58900C7272E /* floyd.cpp in Sources */,
+				FC32D856204676AF00BE9CB6 /* PATA1064.cpp in Sources */,
+				FC32D86C2048320C00BE9CB6 /* PATA1034.cpp in Sources */,
+				FCF42777205987B200ABFD5C /* longest-common-subsequence.cpp in Sources */,
+				FC5CE406204632DD00CA6CC0 /* PATA1094.cpp in Sources */,
+				FC09ECF4204952E100C7272E /* PATA1003.cpp in Sources */,
+				FCF4276D2056A36D00ABFD5C /* ANOJ_IM_03.cpp in Sources */,
+				FCF42779205A00D900ABFD5C /* longest-palindromic-substring.cpp in Sources */,
+				FC985F60204F784400464076 /* 2017q1.cpp in Sources */,
+				FC5CE3FE204553BE00CA6CC0 /* PATA1086.cpp in Sources */,
+				FC09ED1A204E4BBA00C7272E /* 2015q2.cpp in Sources */,
+				FC09ED1C204E4E4100C7272E /* 2015q3.cpp in Sources */,
+				FC09ECF82049531800C7272E /* PATA1030.cpp in Sources */,
+				FC32D8622046EFEE00BE9CB6 /* disjoint-set.cpp in Sources */,
+				FC357C12206274180024DD90 /* whu0321_t05.cpp in Sources */,
+				FCF42784205AACEE00ABFD5C /* 20180315anoj03.cpp in Sources */,
+				FC32D86420478B0900BE9CB6 /* dear-friend.cpp in Sources */,
+				FCF4277E205A694D00ABFD5C /* red-black-tree.cpp in Sources */,
 				FCBDEC0F203D811B00A95D98 /* main.cpp in Sources */,
+				FCF42780205A8A1800ABFD5C /* 20180315anoj01.cpp in Sources */,
+				FC5CE3FA2045488E00CA6CC0 /* PATA1091.cpp in Sources */,
+				FC09ED18204E4ACA00C7272E /* 2015q1.cpp in Sources */,
+				FC09ECFE2049539200C7272E /* dijkstra.cpp in Sources */,
+				FC09ED06204D123300C7272E /* topological-sort.cpp in Sources */,
+				FC441D2020555766001CF4CF /* ANOJ1005.cpp in Sources */,
+				FC985F62204F7A9900464076 /* 2017q2.cpp in Sources */,
+				FC5CE3EA204429EA00CA6CC0 /* PATA1056.cpp in Sources */,
+				FC32D86E2048321B00BE9CB6 /* PATA1076.cpp in Sources */,
+				FCF42769205698ED00ABFD5C /* ANOJ_IM_01.cpp in Sources */,
+				FC5CE40C2046484A00CA6CC0 /* PATA1053.cpp in Sources */,
+				FCF4276F205950AD00ABFD5C /* DP.cpp in Sources */,
+				FC985F64204F7F1700464076 /* 2017q3.cpp in Sources */,
+				FCF42786205B7CF600ABFD5C /* PATB1036.cpp in Sources */,
+				FC985F66204F85CA00464076 /* 2017q4.cpp in Sources */,
+				FC09ECF62049530700C7272E /* PATA1018.cpp in Sources */,
+				FC09ED0A204D5FFE00C7272E /* sorta.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
